@@ -26,8 +26,8 @@ public class SlimeCommand implements CommandExecutor {
         Chunk pc = p.getLocation().getChunk();
         SlimeManager.togglePlayer(p);
         ArrayList<int[]> chunks = new ArrayList<>();
-        for (int cx = (int) (Math.ceil(p.getClientViewDistance() - 1 ) * -1); cx < p.getClientViewDistance() -1; cx++) {
-            for (int cy = (int) (Math.ceil(p.getClientViewDistance()  - 1) * -1); cy < p.getClientViewDistance() -1; cy++) {
+        for (int cx = (int) (Math.ceil(p.getClientViewDistance() + 3 ) * -1); cx < p.getClientViewDistance() + 3; cx++) {
+            for (int cy = (int) (Math.ceil(p.getClientViewDistance()  + 3) * -1); cy < p.getClientViewDistance() +3; cy++) {
                 //chunks.add(p.getWorld().getChunkAt(pc.getX() + cx, pc.getZ() + cy));
                 int[] c = new int[2];
                 c[0] = pc.getX() + cx;
@@ -40,7 +40,7 @@ public class SlimeCommand implements CommandExecutor {
         } else {
             p.spigot().sendMessage(new ComponentBuilder("Turned off slime chunk locator, please wait while your chunks are being reloaded...").color(ChatColor.RED).create());
         }
-        ((SlimyChunks) Bukkit.getServer().getPluginManager().getPlugin("MineBucks")).refreshChunksAsync(p, chunks);
+        ((SlimyChunks) Bukkit.getServer().getPluginManager().getPlugin("SlimyChunks")).refreshChunksAsync(p, chunks);
 
         return true;
     }

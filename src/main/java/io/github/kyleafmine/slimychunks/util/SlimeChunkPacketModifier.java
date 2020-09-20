@@ -11,8 +11,8 @@ import org.bukkit.plugin.Plugin;
 import java.util.ArrayList;
 
 public class SlimeChunkPacketModifier extends PacketAdapter {
-    public static final int LIME_STAINED_GLASS = 5403;//4100;
-    public static final int GRAY_STAINED_GLASS = 7883;//4102;
+    public static final int LIME_STAINED_GLASS = 9447;//4100;
+    public static final int GRAY_STAINED_GLASS = 9457;//4102;
     public static final ArrayList<Integer> blacklist = new ArrayList<>();
     static {
         blacklist.add(0); // air
