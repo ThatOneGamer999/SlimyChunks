@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b0274c0-a603-45f9-b748-e5fac71ff21e" name="Default Changelist" comment="" />
+    <list default="true" id="8b0274c0-a603-45f9-b748-e5fac71ff21e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kyleafmine/slimychunks/SlimeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kyleafmine/slimychunks/packet/AbstractPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kyleafmine/slimychunks/packet/ChunkSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kyleafmine/slimychunks/packet/FakeChunkData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kyleafmine/slimychunks/packet/PacketWorldChunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kyleafmine/slimychunks/packet/Palette.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kyleafmine/slimychunks/packet/VarInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kyleafmine/slimychunks/packet/WrapperPlayServerMapChunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kyleafmine/slimychunks/util/SlimeChunkPacketModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kyleafmine/slimychunks/util/SlimeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/kyleafmine/slimychunks/SlimyChunks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/kyleafmine/slimychunks/SlimyChunks.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +36,18 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -19,7 +55,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hmmBbf6oBGicsIqpzaJKEljXcy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,7 +67,51 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kyle Smith\Desktop\SlimyChunks\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kyle Smith\Desktop\SlimyChunks" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle clean build jar" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SlimyChunks [clean build jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="build" />
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SlimyChunks [clean build jar]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,5 +122,19 @@
       <updated>1600624506646</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1085" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1600626903997">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1085" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1600626903997" />
+    <state x="1096" y="299" key="chooseDestDirectoryDialog" timestamp="1600626414383">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1096" y="299" key="chooseDestDirectoryDialog/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1600626414383" />
+    <state x="936" y="240" width="672" height="677" key="run.anything.popup" timestamp="1600628649934">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="936" y="240" width="672" height="677" key="run.anything.popup/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1600628649934" />
   </component>
 </project>

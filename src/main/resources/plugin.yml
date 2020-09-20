@@ -1,0 +1,10 @@
+name: SlimyChunks
+version: 1.0.0
+author: ThatOneGamer999
+main: io.gitlab.kyleafmine.slimychunks.SlimyChunks
+api-version: "1.15"
+depend:
+  - ProtocolLib
+commands:
+  slime:
+    description: Toggle your slime chunk finder
